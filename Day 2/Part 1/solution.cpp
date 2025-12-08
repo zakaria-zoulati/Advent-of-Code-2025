@@ -47,7 +47,6 @@ void solve(){
         ll b = stoll(items[1] ) ; 
         for( ll i=a ; i<=b ; ++i ){
             if( isInvalid( i ) ){
-                cout << i << '\n' ; 
                 ans += i ; 
             }
         }
